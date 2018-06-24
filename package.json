@@ -4,7 +4,8 @@
   "description": "这是一个主流的基础框架集成webpack+vue+vuex+vue-routes+react",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server ",
+    "build":"webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -36,7 +37,7 @@
     "vue-template-compiler": "^2.2.6",
     "web-webpack-plugin": "^1.10.3",
     "webpack": "^2.4.1",
-    "webpack-dev-server": "^2.4.2"
+    "webpack-dev-server": "^2.11.2"
   },
   "dependencies": {
     "vue": "^2.2.6"
