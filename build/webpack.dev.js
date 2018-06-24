@@ -1,6 +1,7 @@
 const merge=require("merge");
 const base=require("./webpack.base");
 const webpack=require("webpack");
+const path=require("path");
 
 var devConfig={
 
@@ -8,4 +9,4 @@ var devConfig={
 
 const config=merge(base,devConfig);
 
-module.exports=devConfig;
+module.exports=config;

@@ -1,5 +1,6 @@
 var webpack = require('webpack');
 const { WebPlugin } = require('web-webpack-plugin');
+const path=require("path");
 module.exports={
     devtool: "source-map",
     entry:{
@@ -8,7 +9,7 @@ module.exports={
         // reactIndex:"./src/reactFamily/index.js"
     },
     output: {
-        path: __dirname + '/dist/',
+        path: path.resolve('dist/'),
         filename: "[name].bundle.js",
         // publicPath: './dist/'
     },
