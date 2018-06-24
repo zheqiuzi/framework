@@ -1,16 +1,22 @@
 {
-  "name": "webpacklist",
+  "name": "framework",
   "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "description": "这是一个主流的基础框架集成webpack+vue+vuex+vue-routes+react",
+  "main": "index.js",
   "scripts": {
-    "start": "webpack",
-    "dev":"webpack --config ./config/webpack.dev.js"
-
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zheqiuzi/framework.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zheqiuzi/framework/issues"
+  },
+  "homepage": "https://github.com/zheqiuzi/framework#readme",
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.24.1",
@@ -23,14 +29,16 @@
     "eslint-loader": "^2.0.0",
     "esprima": "^4.0.0",
     "estraverse": "^4.2.0",
-    "html-webpack-plugin": "^3.2.0",
-    "jquery": "^3.3.1",
     "merge": "^1.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.3.1",
+    "vue": "^2.5.16",
     "vue-hot-reload-api": "^2.1.0",
     "vue-html-loader": "^1.2.4",
     "vue-loader": "^11.3.4",
+    "vue-router": "^3.0.1",
     "vue-style-loader": "^3.0.0",
     "vue-template-compiler": "^2.2.6",
     "web-webpack-plugin": "^1.10.3",
@@ -40,6 +48,7 @@
   "dependencies": {
     "escodegen": "^1.10.0",
     "vue": "^2.2.6",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "webpack-dev-server": "^2.4.2"
   }
 }
